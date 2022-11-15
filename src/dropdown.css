@@ -1,0 +1,22 @@
+.heading {
+  color: orange;
+  font-size: 20px;
+  font-weight: 500;
+}
+.dropdown {
+  color: yellow;
+  background-color: darkgray;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+.dropdown:hover {
+  background-color: black;
+  outline: 1px solid yellow;
+}
+
+.options {
+  color: yellow;
+  background-color: black;
+  padding: 10px;
+}
