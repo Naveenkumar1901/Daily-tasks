@@ -1,0 +1,23 @@
+.container {
+  height: 100vh;
+  width: 100%;
+}
+
+.inner-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.result-item {
+  border-radius: 10px;
+  border: none;
+  background-color: black;
+  color: yellow;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}

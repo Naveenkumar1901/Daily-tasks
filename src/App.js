@@ -1,10 +1,16 @@
 import './App.css';
-import Text from './Text';
+import Count from './Count';
+import DisableButton from './DisableButton';
+import FilterSearch from './FilterSearch';
+import TextToggle from './TextToggle';
 
 function App() {
   return (
     <div className="App">
-      <Text />
+      <FilterSearch />
+      {/* <TextToggle />
+      <DisableButton />
+      <Count /> */}
     </div>
   );
 }
